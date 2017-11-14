@@ -6,17 +6,14 @@ HW#28
 
 **********************************************/
 
-public class normalMonster extends Character{
+public class Monster extends Character{
 
     //constructor
-    public normalMonster(){
+    public Monster(){
 	health = 150;
 	defense = 20;
 	attackRating = 1;
 	strength = (int)(Math.random() * 45) + 20;
-    }
-    public String about(){
-	return "A normal monster";
     }
     
 }

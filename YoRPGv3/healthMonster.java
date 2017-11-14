@@ -6,7 +6,7 @@ public class healthMonster extends Monster{
 	attackRating = 1;
 	strength = (int)(Math.random() * 45) + 20;
 	    }
-    public static String about(){
+    public String about(){
 	return "A Monster with a substantial amount of health";
     }
 }

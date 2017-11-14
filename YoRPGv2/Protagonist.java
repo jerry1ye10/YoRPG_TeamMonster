@@ -17,10 +17,6 @@ public class Protagonist extends Character{
 	defense = 40;
 	attackRating = 0.4;
     }
-
-    public String about(){
-	return "A normal protagonist";
-    }
     //decrease defense, increase attackRating
     public void specialize(){
 	defense = (int)(defense * 0.5);
@@ -33,4 +29,3 @@ public class Protagonist extends Character{
 	   
     
     }
-}
