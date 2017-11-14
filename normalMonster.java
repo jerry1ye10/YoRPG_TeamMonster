@@ -15,5 +15,8 @@ public class normalMonster extends Character{
 	attackRating = 1;
 	strength = (int)(Math.random() * 45) + 20;
     }
+    public String about(){
+	return "A normal monster";
+    }
     
 }

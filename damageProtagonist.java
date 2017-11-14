@@ -9,6 +9,9 @@ public class damageProtagonist extends Character{
 	defense = 40;
 	attackRating = 0.6;
     }
+    public String about(){
+	return "A Protagonist with extra high attack damage";
+    }
     //decrease defense, increase attackRating
     public void specialize(){
 	defense = (int)(defense * 0.5);
