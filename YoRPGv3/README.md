@@ -1,4 +1,4 @@
-# This is a homework assignment for our AP Computer Science Class! 
+# This is our most recent version of our YoRPG! 
 
 We are creating an RPG in java. To run, go into your terminal and enter javac YoRPG.java. Then enter java YoRPG.
 
