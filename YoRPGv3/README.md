@@ -4,7 +4,7 @@ We are creating an RPG in java. To run, go into your terminal and type javac YoR
 
 ## Classes
 
-The superclass is Character. The Character extends to two different subclasses.
+The superclass is Character. The Character extends to two different subclasses: Protagonist and Monster.
 
 ### Monster
 
