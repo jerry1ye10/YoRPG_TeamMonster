@@ -77,9 +77,26 @@ public class YoRPG
 	    name = in.readLine();
     }
     catch ( IOException e ) { }
-
+    s = "What would you like to be?";
+    s += "\n 1:Super Protagonist";
+    s += "\n 2: Tank Protagonist";
+    s += "\n 3: Attack Protagonist";
+    System.out.println(s);
     //instantiate the player's character
-    pat = new Protagonist( name );
+    int counter = 0; 
+    try {
+        counter = Integer.parseInt(in.readLine());
+    }
+    catch (IOException e) {}
+    if (counter == 1){
+	pat = new superProtagonist(name);
+	    }
+    else if (counter == 2) {
+	pat = new damageProtagonist(name);
+	    }
+    else {
+	pat = new tankProtagonist(name);
+    }
 
   }//end newGame()
 

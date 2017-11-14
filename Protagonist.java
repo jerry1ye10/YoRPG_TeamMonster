@@ -6,11 +6,11 @@ HW#28
 
 **********************************************/
 
-public class normalProtagonist extends Character{
+public class Protagonist extends Character{
 
 
     //constructor
-    public normalProtagonist(String newName){
+    public Protagonist(String newName){
 	name = newName;
 	health = 125;
 	strength = 100;
@@ -18,9 +18,6 @@ public class normalProtagonist extends Character{
 	attackRating = 0.4;
     }
 
-    public String about(){
-	return "A normal protagonist";
-    }
     //decrease defense, increase attackRating
     public void specialize(){
 	defense = (int)(defense * 0.5);
