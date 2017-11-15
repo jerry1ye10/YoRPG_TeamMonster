@@ -1,6 +1,6 @@
 # This is our most recent version of our YoRPG! 
 
-We are creating an RPG in java. To run, go into your terminal and enter javac YoRPG.java. Then enter java YoRPG.
+We are creating an RPG in java. To run, go into your terminal and enter javac YoRPG.java. Then enter java YoRPG.This version of YoRPG uses Protagonist, Character, and Monster as abstract superclasses. 
 
 ## Classes
 
