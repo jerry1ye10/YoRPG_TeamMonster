@@ -12,4 +12,15 @@ public class tankProtagonist extends Protagonist{
     public String about(){
 	return "A Protagonist with a substantial amount of health";
     }
+        public void specialize(){
+	defense = (int)(defense * 0.5);
+	attackRating = attackRating * 2;
+    }
+    //resets defense and attackRating
+    public void normalize(){
+	defense = 40;
+	attackRating = .4;
+	   
+    
+    }
 }
