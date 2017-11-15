@@ -6,8 +6,12 @@ HW#28
 
 **********************************************/
 
-public class Protagonist extends Character{
+public abstract class Protagonist extends Character{
 
+    //instant variables
+    public abstract void normalize ();
+    public abstract void specialize ();
+    public abstract void about ();
 
     //constructor
     public Protagonist(String newName){
