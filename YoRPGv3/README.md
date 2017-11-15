@@ -1,4 +1,4 @@
-# This is our most recent version of our YoRPG! 
+# This is our not our most recent version of YoRPG! Please check YoRPG out for the most recent version!
 
 We are creating an RPG in java. To run, go into your terminal and enter javac YoRPG.java. Then enter java YoRPG.
 
