@@ -8,9 +8,13 @@ HW#28
 
 public abstract class Protagonist extends Character{
 
+<<<<<<< HEAD
     //instance variables
     private int monstersSlain; 
     //abstract methods 
+=======
+    //instant variables
+>>>>>>> 6445b9e9d430c4f67ba5104aac9fe9fbd2fd57d0
     public abstract void normalize ();
     public abstract void specialize ();
     public abstract String about ();
@@ -23,7 +27,10 @@ public abstract class Protagonist extends Character{
 	defense = 40;
 	attackRating = 0.4;
     }
+<<<<<<< HEAD
     public killMonster(){
 	this.monstersSlain += 1;
     }
+=======
+>>>>>>> 6445b9e9d430c4f67ba5104aac9fe9fbd2fd57d0
 }

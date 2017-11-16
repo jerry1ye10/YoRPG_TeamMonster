@@ -158,7 +158,10 @@ public class YoRPG
 	    //option 2: you slay the beast
 	    else if ( !smaug.isAlive() ) {
         System.out.println( "HuzzaaH! Ye olde monster hath been slain!" );
+<<<<<<< HEAD
 	pat.killMonster();
+=======
+>>>>>>> 6445b9e9d430c4f67ba5104aac9fe9fbd2fd57d0
         return true;
 	    }
 	    //option 3: the beast slays you
@@ -167,10 +170,14 @@ public class YoRPG
         return false;
 	    }
     }//end else
+<<<<<<< HEAD
     if (pat.getMonstersSlain() == 3){
 	System.out.println("3 monsters have been slain! You win.");
 	return false;
     }
+=======
+
+>>>>>>> 6445b9e9d430c4f67ba5104aac9fe9fbd2fd57d0
     return true;
   }//end playTurn()
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
