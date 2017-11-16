@@ -1,7 +1,7 @@
 # YoRPG_TeamMonster
 This is a homework assignment for our AP Computer Science Class!
 
-Our latest version of this assignment is YoRGv4.
+Our latest version of this assignment is YoRGv5. The instructions for our YoRPG game can be found in each of the README.dm files in all versions.
 
 Made by: Tania Cao, Jerry Ye, Eddie Zhu
 
