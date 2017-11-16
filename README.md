@@ -14,7 +14,7 @@ The attributes of each of the clases are set up and each class has methods that 
 Create Character superclass where Protagonist and Monster classes extended Character.
 Character superclass contains all the methods that run the game actions (e.g. attack).
 
-Update Protagonist class to contain only its attributes and methods that enhance or reset the attributes to their default values.
+Update Protagonist class to contain its attributes and methods that enhance or reset the attributes to their default values.
 
 Update Monster class to contain only its attributes (no methods).
 
