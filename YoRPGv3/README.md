@@ -1,6 +1,6 @@
-# This is our not our most recent version of YoRPG! Please check YoRPG out for the most recent version!
+# This is not our most recent version of our YoRPG! Please go to YoRPv5 for our latest version of the game!
 
-We are creating an RPG in java. To run, go into your terminal and enter javac YoRPG.java. Then enter java YoRPG.
+We are creating an RPG in java. To run, go into your terminal and enter javac YoRPG.java. Then enter java YoRPG.This version of YoRPG uses Protagonist, Character, and Monster as abstract superclasses. 
 
 ## Classes
 
@@ -37,7 +37,3 @@ This is an instance of a Protagonist who is extraordinarily large and has more H
 #### Super Protagonist
 
 This is an instance of a Protagonist who is nearly impossible to be killed by a Monster, with unimaginably high attributes. Very difficult to lose with. 
-
-
-
-
