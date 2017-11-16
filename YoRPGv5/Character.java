@@ -30,17 +30,7 @@ public class Character{
     public int lowerHP(int damageTaken){
 	return (health - damageTaken);
     }
-<<<<<<< HEAD
     //returns the damage done to the monster based on formula
-    public int attack(Character dude ){
-	int damageDone = (int)(strength * attackRating) - dude.getDefense();
-	dude.health -= damageDone;
-	return damageDone;
-    }
-
-=======
-
-    //generates a critAttack value for extra damage based on luck
     public boolean critAttack(){
 	return Math.random() * 10 < 5;
     }
@@ -60,10 +50,5 @@ public class Character{
 
     }
 
-	    
-	
-	
-
->>>>>>> 6445b9e9d430c4f67ba5104aac9fe9fbd2fd57d0
 }
 

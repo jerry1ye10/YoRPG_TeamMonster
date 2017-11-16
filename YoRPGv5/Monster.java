@@ -7,10 +7,6 @@ HW#28
 **********************************************/
 
 public class Monster extends Character{
-<<<<<<< HEAD
-=======
-    public abstract boolean critAttack();
->>>>>>> 6445b9e9d430c4f67ba5104aac9fe9fbd2fd57d0
 
     //constructor
     public Monster(){
