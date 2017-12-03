@@ -1,4 +1,4 @@
-publc class devilMonster extends Monster{
+public class devilMonster extends Monster{
     public devilMonster(String name){
 	super(name);
 	health = 10000;
@@ -7,6 +7,6 @@ publc class devilMonster extends Monster{
 	strength = 100000;
     }
     public static String about(){
-	return "The scariest and strongest devil Monster!"
-	    }
+	return "The scariest and strongest devil Monster!";
+    }
 }
